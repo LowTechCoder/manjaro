@@ -1,9 +1,9 @@
 sudo pacman-mirrors --fasttrack && sudo pacman -Syu
 
 
-vim /etc/pacman.conf
+#vim /etc/pacman.conf
 #uncomment 2 lines below this:
-[multilib]
+#[multilib]
 
 sudo pacman -Sl multilib
 
