@@ -9,3 +9,7 @@ sudo pacman -Sl multilib
 
 sudo pacman -Syu
 sudo pacman -S steam
+
+touch .zshrc
+echo 'alias pacup="sudo pacman -Syu"' >> .zshrc
+echo 'alias aup="sudo pamac upgrade --aur"' >> .zshrc
